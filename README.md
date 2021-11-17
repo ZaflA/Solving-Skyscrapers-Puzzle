@@ -24,7 +24,7 @@ Or
 
 $ minizinc --solver Gecode Method2.mzn Method2.dzn
 
-The solution of the puzzle will be printed on the command line.
+You can view the solution of the puzzle on the command line.
 
 _________________________________________________________________________________________________________________________________________________________
 
