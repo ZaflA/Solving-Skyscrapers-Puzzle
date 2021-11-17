@@ -2,9 +2,12 @@
 
 In this project, we proposed two methods to solve the skyscrapers puzzle based on Minizinc and Python (method1: using the visible matrix, and method2: using the table constraint). 
 
-After cloning this project, you need to run the command line in our project directory (./Solving-Skyscrapers-Puzzle).
+Preparation:
+1. Download Minizinc and config the environment variables. 
+2. Clone our repository.
+3. Run the command line in our project directory (./Solving-Skyscrapers-Puzzle).
 
-For running method 1 and 2:
+For running method 1 and 2 of our project:
 
 Firstly, modify the corresponding '.dzn' file, complete the input data (existing grids and clues of the puzzle). Structed as followed:
 
@@ -16,7 +19,7 @@ right = [3,2,2,4,1,2];
 
 The first parameter is the existing grids, and the followed four parameters are clues on each side. 
 
-For solving the puzzle, run the script by the command:
+Then, for solving the puzzle, run the script by the command:
 
 $ minizinc --solver Gecode Method1.mzn Method1.dzn
 
@@ -24,7 +27,7 @@ Or
 
 $ minizinc --solver Gecode Method2.mzn Method2.dzn
 
-You can view the solution of the puzzle on the command line.
+Finally, you can view the solution of the puzzle on the command line.
 
 _________________________________________________________________________________________________________________________________________________________
 
