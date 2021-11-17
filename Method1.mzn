@@ -16,7 +16,7 @@ array[POS, POS] of var EXIST: bottom_visible;
 array[POS, POS] of var EXIST: left_visible;
 array[POS, POS] of var EXIST: right_visible;
 
-% Create 3 matrix, exist(user input) + fill(middleware) = height(the completed matrix)
+% Create 3 matrix, existence(user input) + filled(middleware) = height(the completed matrix)
 array[POS, POS] of int: existence;
 array[POS, POS] of var 0..N: filled;
 array[POS, POS] of var HEIGHT: height;

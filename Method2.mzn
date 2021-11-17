@@ -10,7 +10,7 @@ array[POS] of SEEN: bottom;
 array[POS] of SEEN: left;
 array[POS] of SEEN: right;   
 
-% Create 3 matrix, exist(user input) + fill(middleware) = height(the completed matrix)
+% Create 3 matrix, existence(user input) + filled(middleware) = height(the completed matrix)
 array[POS, POS] of int: existence;
 array[POS, POS] of var 0..N: filled;
 array[POS, POS] of var HEIGHT: height;
