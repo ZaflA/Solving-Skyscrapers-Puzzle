@@ -4,7 +4,7 @@ In this project, we proposed two methods to solve the skyscrapers puzzle based o
 
 After cloning this project, you need to run the command line in our project directory (./Solving-Skyscrapers-Puzzle).
 
-For running method 1 and 2:
+For running methods 1 and 2:
 
 Firstly, modify the corresponding '.dzn' file, complete the input data (existing grids and clues of the puzzle). Structed as followed:
 
@@ -18,15 +18,16 @@ The first parameter is the existing grids, and the followed four parameters are 
 
 For solving the puzzle, run the script by the command:
 
-$ minizinc --solver Gecode Method1.mzn Method1.dzn
+$ minizinc --solver Gecode method1.mzn method1.dzn
 
 Or
 
-$ minizinc --solver Gecode Method2.mzn Method2.dzn
+$ minizinc --solver Gecode method2.mzn method2.dzn
 
-You can view the solution of the puzzle on the command line.
+You can view the solution of the puzzle on the command line. 
+If you prefer running the solver on the IDE rather than the command line, you can download Minizinc at https://www.minizinc.org/.
 
-_________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________
 
 In our project, we focus on solving the 6x6 skyscrapers puzzle. However, if you are interested in other sizes of the puzzle, you could modify the size of the puzzle through the third line of the corresponding ‘.mzn’ file.
 
